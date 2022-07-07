@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+main {
+    text-align: center;
+    background-color: antiquewhite;
+    margin:auto;
+}
+
+main > h2 {
+    background-color: aquamarine;
+    margin: 0px 0px;
+}
+
+article {
+    text-align: left;
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    padding: 1px 5px 1px 0px;  
+    margin: 5px 5px;
+    border-radius: 5px 5px;
+}
+
+article > div {
+    margin-left: 5px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos dom</title> 
+   <style>
+    div.textao {
+        background-color: red;
+        color: white;
+        width: 200px;
+        height: 200px;
+        line-height:200px;
+        text-align: center;
+        font: 25pt normal arial;
+    }
+   </style>
+</head>
+<body>
+    
+  <div  nome="texto" class="textao" onmouseenter = 'entrar()' onmouseout = 'saiu()' onclick = 'clicou()'>interaja</div>
+      
+  <script>
+    var a = window.document.querySelector('div.textao')
+    function entrar() {
+        a.innerText = 'entrou'
+        a.style.color = 'black'
+        a.style.background = 'yellow'
+
+    }
+    function saiu() {
+        a.innerText = 'saiu'
+        a.style.color = 'pink'
+    }
+    function clicou() {
+        a.innerText ='clicou'
+        a.style.background ='black'
+        a.style.color ='white'
+       
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador 4</title>
+</head>
+<body>
+    <input type="number" name="number1" id="number1">+
+    <input type="number" name="number2" id="number2">
+    <input type="button" value="teste" name="botao" onclick="somar()">
+    <div id="resul">Reseultado</div>
+    <script>
+        function somar() {
+        var num1 = window.document.getElementById('number1')
+        n1 = Number.parseFloat(number1.value)
+        var num2 = window.document.getElementById('number2')
+        n2 = Number.parseFloat(number2.value)
+        var soma = n1 + n2
+        var res = window.document.getElementById('resul')
+        
+    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${soma}`
+    }
+    </script>
+</body>
+</html>

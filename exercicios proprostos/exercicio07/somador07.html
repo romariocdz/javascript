@@ -1,0 +1,32 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador7</title>
+</head>
+<body>
+    <h1>soma dos números</h1>
+        <input type="number" id="number1">+
+            <input type="number" id="number2">
+                <input type="button" value="somador" onclick="somar()">
+    <div name="resul" id="resul">O resultado é:
+</div>
+    <script>
+        function somar() {
+            var n1 = window.document.getElementById('number1')
+                var n2 = window.document.getElementById('number2')
+                    num1 = Number(n1.value)
+                num2 = Number(n2.value)
+            var soma = num1 + num2
+            /* a variável res não servia para nada Black Thunder */
+            resul.innerHTML = `A soma entre ${num1} e ${num2} é ${soma}`   
+            
+                
+
+
+}
+    </script>
+</body>
+</html>

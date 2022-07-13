@@ -1,0 +1,27 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador8</title>
+</head>
+<body>
+   <h1>Somador de números</h1> 
+   <input type="number" name="number1" id="num1">+
+   <input type="number" name="number2" id="num2">
+   <input type="button" value="somar" onclick="somar()">
+   <div name="resul">O resultado da soma é:</div>
+    <script>
+    function somar() {
+        var n1 = window.document.querySelector("input#num1")
+    var n2 = window.document.querySelector("input#num2")
+         var numer1 = Number(n1.value)
+          var numer2 = Number(n2.value)
+        var soma = numer1 + numer2
+            var resultado = window.document.getElementsByName("resul")[0] 
+            resultado.innerHTML = `A soma entre ${numer1} e ${numer2} é igual a ${soma}`
+    }
+    </script>
+</body>
+</html>

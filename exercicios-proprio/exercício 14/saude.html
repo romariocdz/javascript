@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida saudável</title>
+    <link rel="stylesheet" href="saude.css">
+    <script src="saude.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Vida saudável</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Troque seus pontos por Dinheiro &#x1f4b5</h2>
+            <p>Cada hora de exercício no mês (minimo de 10h), recebe pontos. Cada ponto pode ser trocado por R$ 0,5 centavos </p>
+        </section>
+            <section id="bloco">
+                <label for="horas">Horas de exercício no mês: <input type="number" id="hora" min="1"></label>
+                   <div id="botao">
+                    <input type="button" value="cash" onclick="converter()">
+                   </div>   
+            </section>
+        <section>
+            <div id="resul">
+                <p> </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

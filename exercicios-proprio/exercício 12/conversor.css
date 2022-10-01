@@ -1,0 +1,65 @@
+div {
+    display: inline-block;
+}
+
+p {
+    display: inline;
+    color: red;
+}
+
+#instext {
+font-size: 13.5pt;
+    padding-top: 1px;
+        margin: 1px 3px 1px 5px;
+}
+
+body {
+    background-image: white;
+
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    background-color: #064c96;
+        margin: auto;
+            border: 2px solid black;
+        max-width: 60%;
+        min-width: 500px;
+    
+}
+
+#instrucao {
+    background-color: #043263;
+    padding: 1px 1px;
+    margin: 0px 0px;
+}
+
+h2 {
+    margin: 0px 0px 0px 13px;
+}
+
+#calc {
+    padding: 1px 1px;
+    margin: 15px 15px 10px 20px;
+}
+
+.box{
+    padding: 1px 1px;
+  margin: auto;
+}
+
+#bot {
+    margin: 0px 0px;
+}
+
+#resp {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    padding: 10px 5px;
+    margin: auto;
+    width: 250px;
+     background-color: white;
+}

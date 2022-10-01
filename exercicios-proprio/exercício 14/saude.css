@@ -1,0 +1,77 @@
+:root {
+    --cor0: #ECF229;
+    --cor1: #D9D9D9;
+    --cor2: #D996B5;
+    --cor3: #21cf07;
+}
+
+body {
+    background-color: black;
+}
+#botao {
+    display: inline-block;
+    
+}
+
+header {
+    background-color: var(--cor2);
+    border-radius: 0px 0px 4px 4px;
+    padding: 2px 5px 1px 1px;
+    margin: 1px 1px 2px 1px;
+}
+
+@font-face {
+    font-family: manga;
+    src: url('fontes/mangatb.ttf');
+}
+header > h1 {
+    color: var(--cor0);
+    font-family: manga;
+    text-align: center;
+}
+
+main {
+    background-color: var(--cor1);
+    border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 25%; 
+    margin: auto;
+    width: 80%;
+}
+
+section > h2 {
+    text-align: center;
+    color: var(--cor3);
+}
+
+section > p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+#bloco {
+    margin-left: 20px;
+}
+
+label {
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+#hora {
+    
+    margin: auto;
+}
+
+#resul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) ;
+    padding: 10px 15px;
+    margin: 10px 20px 1px 10px;
+    width: 76%;
+}
+

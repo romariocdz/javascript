@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="conversor.css">
+    <script src="conversor.js"></script>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Qual o valor do dolar em reias</h1>
+    </header>
+<section id="instrucao">
+    <h2>Instruções de uso:</h2>
+    <p id="instext">Digite o valor da contação atual do dolar e quantos dolares deseja converter em reais.</p>
+</section>
+<section id="calc">
+<div class="box"> 
+    <input type="number" id="dole"> ⇄
+</div>
+    <div class="box">
+        <input type="number" id="real">
+    </div>
+        <div id="bot">
+            <input type="button" value="converter" onclick="checar()">
+    </div>
+         </section>
+            <section id="resp">
+    <div id="res">
+        <p> </p>
+</div>
+    </section>       
+</main>
+</body>
+</html>

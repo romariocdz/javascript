@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color:#3264a6;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    border: 3px solid rgba(0, 0, 0, 0.788);
+    border-radius: 7px 6px 7px 6px;
+    box-shadow: 2px 1px 4px 1px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to left, blue, green);
+    padding: 0px 0px;
+    margin: 1px 1px 10px 1px;
+}
+
+main {
+   background-color: #d5e7f2; 
+   border: 2px solid black;
+   border-radius: 5px 0px 0px 5px;
+   box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+   width: 70%;
+   margin: auto;
+}
+
+section  {
+    margin-left: 15px;
+}
+
+#saf {
+    margin-left: 5px;
+}
+
+#res {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 1px #3264a6de;
+    margin: 8px 5px;
+    width: 60%;
+}

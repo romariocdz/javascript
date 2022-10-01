@@ -7,7 +7,7 @@ var hor = window.document.getElementById("dia")
                 var dat = new Date()
                     var dia1 = dat.getDate()
             
-    
+          
         dia.innerHTML = `Agora são ${hora} horas e hoje é dia ${dia1}`
 
             if (hora >= 0 && hora < 12) {

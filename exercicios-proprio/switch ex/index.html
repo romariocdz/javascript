@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estrutura condicionais</title>
+    <script src="condicao.js"></script>
+</head>
+<body>
+<main>
+<section>
+            <h1>Área de cadastro</h1>
+    <div id="areacadastro">
+            <div id="nome" class="boxcadastro">
+                <label for="login">Nome:</label>
+                    <input type="text" name="login" id="login">
+            </div>
+        <div id="sex" class="boxcadastro">
+            <input type="radio" name="sex" id="masc">
+                <label for="masc">:Masculino</label>
+            <input type="radio" name="sex" id="fem">
+                <label for="fem">:Feminino</label>
+        </div>
+            <div id="data" class="boxcadastro">
+                <label for="nasc">data de nascimento:</label>
+                    <input type="date"  id="nasc" name="nasc">
+            </div>
+        <div id="confirme">
+            <input type="button" value="cadastrar" id="botãocadastro" name="botãocadastro" onclick="confirme()">
+        </div>
+    </div>
+</section>
+    <section>
+        <div id="questes">
+            <h1>Exercícios de equação do primeiro grau!</h1>
+                <p>Resolva as seguintes equações do primeiro grau com uma incógnita.</p>
+            <p>Questão 01: 4x + 2 = 38</p>
+                <label for="quest1">X=</label>
+                    <input type="number" min="0" name="quest1" id="quest1">
+            <p>Questão 02: 9x = 6x + 12</p>  
+                <label for="quest2">Resposta:</label> 
+                    <input type="number" min="0" name="quest2" id="quest2">
+            <p>Questão 03: 5x - 1 = 3x + 11</p>
+                <label for="quest3">X=</label>
+                    <input type="number" min="0" name="quest3" id="quest3">
+            <p>Questão 04: 2x + 8 = x + 13</p>
+                <label for="">X=</label>
+                    <input type="number" min="0" name="quest4" id="quest4">
+        </div>
+            <input type="button" value="Verificar" onclick="verificar()">
+    </section>
+</main>
+</body>
+</html>

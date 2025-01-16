@@ -8,19 +8,35 @@
 </head>
 <body>
     <header>
-        <h1>Cadastro.</h1>
+        <h1>Cadastro</h1>
     </header>
     <main>
         <section id="cadastro">
-            <form name="formulario" action="busca.php" onsubmit="return">
-                <label for="nome">Nome:</label>
-                    <input type="text" id="nome" required> <br><br>
-                        <label for="data" required>Nascimento:</label>
-                    <input type="date" id="data" required> <br><br>
-                <input type="radio" value="sexm" name="radiosex" id="sexm" checked>
-                    <label for="sexm">Masculino</label>
-                <input type="radio" value="sexf" name="radiosex" id="sexf">
-                    <label for="sexf">Feminino</label>
+            <form name="formulario" action="busca.php" onsubmit="return validar()">
+                <div id="area_nome">
+                    <label for="nome">Nome:</label>
+                        <input type="text" id="nome" required>
+                </div> 
+                        <div id="area_data">
+                            <label for="data" required>Nascimento:</label>
+                                                <input type="date" id="data" required> <br><br>
+                        </div>
+                <div id="area_sex">
+                    <input type="radio" value="sexm" name="radiosex" id="sexm" checked>
+                        <label for="sexm">Masculino</label>
+                </div>
+                <div id="area_sex">
+                    <input type="radio" value="sexf" name="radiosex" id="sexf">
+                        <label for="sexf">Feminino</label>
+                </div>
+                    <div id="area_email">
+                        <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                    </div>
+                        <div id="area_cpf">
+                            <label for="cpf">CPF:</label>
+                                <input type="number" minlength="11" maxlength="11" required>
+                        </div>
             </form>
         </section>
     </main>

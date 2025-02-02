@@ -1,5 +1,5 @@
 number1 = 1;
-number2 = 5;
+number2 = 6;
 inter = 0
 cont = number1;
 soma = 0
